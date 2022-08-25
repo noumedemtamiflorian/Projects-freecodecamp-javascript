@@ -51,18 +51,36 @@ const convertToRoman = (num) => {
 }
 
 
-console.log(
-    convertToRoman(2),
-    convertToRoman(3),
-    convertToRoman(4),
-    convertToRoman(5),
-    convertToRoman(9),
-    convertToRoman(12),
-    convertToRoman(16),
-    convertToRoman(29),
-    convertToRoman(44),
-    convertToRoman(45),
-    convertToRoman(68),
-    convertToRoman(83),
-    convertToRoman(97)
-);
+const result = {
+    2: convertToRoman(2),
+    3: convertToRoman(3),
+    4: convertToRoman(4),
+    5: convertToRoman(5),
+    9: convertToRoman(9),
+    12: convertToRoman(12),
+    16: convertToRoman(16),
+    29: convertToRoman(29),
+    44: convertToRoman(44),
+    45: convertToRoman(45),
+    68: convertToRoman(68),
+    83: convertToRoman(83),
+    97: convertToRoman(97)
+}
+
+console.log(result);
+
+// {
+//   "2": "II",
+//   "3": "III",
+//   "4": "IV",
+//   "5": "V",
+//   "9": "IX",
+//   "12": "XII",
+//   "16": "XVI",
+//   "29": "XXIX",
+//   "44": "XLIV",
+//   "45": "XLV",
+//   "68": "LXVIII",
+//   "83": "LXXXIII",
+//   "97": "XCVII"
+// }

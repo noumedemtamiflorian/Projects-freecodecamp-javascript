@@ -138,7 +138,7 @@ console.log(result);
 }
 ```
 
-[**Telephone Number Validator**](https://github.com/noumedemtamiflorian/Projects-freecodecamp-javascript/blob/master/telephone_number_validator.js)
+### [**Telephone Number Validator**](https://github.com/noumedemtamiflorian/Projects-freecodecamp-javascript/blob/master/telephone_number_validator.js)
 
 This project allows you to check if a character string has the format of a good phone number.
 
