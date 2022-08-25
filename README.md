@@ -1,23 +1,24 @@
-Freecodecamp projects
+## **Freecodecamp projects**
 
 Final projects made at the end of the JavaScript Algorithms and Data Structures Certification training! by freecodecamp
 
-Palindrome Checker
+### [**Palindrome Checker**](https://github.com/noumedemtamiflorian/Projects-freecodecamp-javascript/blob/master/palindrome.js)
 
 A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.
 
 The palindrome function returns true if the given string is a palindrome. Otherwise, returns false
 
-palindrome function
+#### **palindrome function**
 
-Parameters
+_Parameters_
 
-str: string to check.
+*   `str`: string to check.
 
-Return
+_Return_
 
-returns a boolean indicating whether the string sent is a palindrome or nots
+*   returns a boolean indicating whether the string sent is a palindrome or nots
 
+```plaintext
 const result = {
     "eye": palindrome("eye"),
     "race car": palindrome("race car"),
@@ -49,23 +50,23 @@ console.log(result);
     "0_0 (: /- :) 0-0": true,
     "five|_/|four": false
 }
+```
 
-
-
-Roman Numeral Converter
+### [**Roman Numeral Converter**](https://github.com/noumedemtamiflorian/Projects-freecodecamp-javascript/blob/master/roman_numeral_converter.js)
 
 This project converts the given number to Roman numeral.
 
-convertToRoman function
+**convertToRoman function**
 
-Parameters
+_Parameters_
 
-num: number to convert.
+*   _**num**_: number to convert.
 
-Return
+_Return_
 
-returns a Roman numeral string.
+*   returns a Roman numeral string.
 
+```plaintext
 const result = {
     2: convertToRoman(2),
     3: convertToRoman(3),
@@ -99,10 +100,9 @@ console.log(result);
   "83": "LXXXIII",
   "97": "XCVII"
 }
+```
 
-
-
-Caesars Cipher
+### [**Caesars Cipher**](https://github.com/noumedemtamiflorian/Projects-freecodecamp-javascript/blob/master/caesars_cipher.js)
 
 This project allows to code cesar with k=13.
 
@@ -110,16 +110,17 @@ One of the simplest and best-known ciphers is the Caesar cipher, also known as t
 
 A common modern use is the ROT13 cipher, where letter values ​​are shifted 13 places. So A ↔ N, B ↔ O and so on.
 
-rot13 function
+**rot13 function**
 
-Parameters
+_Parameters_
 
-str : character string to encrypt.
+*   _**str :**_ character string to encrypt.
 
-Return
+_Return_
 
-returns a character string decrypt.
+*   returns a character string decrypt.
 
+```plaintext
 const result = {
     "SERR PBQR PNZC": rot13("SERR PBQR PNZC"),
     "SERR CVMMN!": rot13("SERR CVMMN!"),
@@ -135,25 +136,25 @@ console.log(result);
     "SERR YBIR?": "FREE LOVE?",
     "GUR DHVPX OEBJA SBK WHZCF BIRE GUR YNML QBT": "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG."
 }
+```
 
-
-
-Telephone Number Validator
+[**Telephone Number Validator**](https://github.com/noumedemtamiflorian/Projects-freecodecamp-javascript/blob/master/telephone_number_validator.js)
 
 This project allows you to check if a character string has the format of a good phone number.
 
-telephoneCheck function
+**telephoneCheck function**
 
 Return true if the passed string looks like a valid US phone number.
 
-Parameters
+_Parameters_
 
-str : Phone number character string.
+*   _**str :**_ Phone number character string.
 
-Return
+_Return_
 
-returns a boolean.
+*   returns a boolean.
 
+```plaintext
 const result = {
     "555-555-5555": telephoneCheck("555-555-5555"),
     "1 555-555-5555": telephoneCheck("1 555-555-5555"),
@@ -178,23 +179,25 @@ console.log(result);
     "1 555 555 5555": true,
     "1 456 789 4444": true
 }
+```
 
-Cash Register
+### [**Cash Register**](https://github.com/noumedemtamiflorian/Projects-freecodecamp-javascript/blob/master/cash_register.js)
 
 This project allows you to check if a character string has the format of a good phone number.
 
-telephoneCheck function
+**telephoneCheck function**
 
 Return true if the passed string looks like a valid US phone number.
 
-Parameters
+_Parameters_
 
-str : Phone number character string.
+*   _**str :**_ Phone number character string.
 
-Return
+_Return_
 
-returns a boolean.
+*   returns a boolean.
 
+```plaintext
 
 console.log(
     checkCashRegister(19.5, 20, [["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]),
@@ -236,3 +239,4 @@ console.log(
         ]
 }
 
+```
